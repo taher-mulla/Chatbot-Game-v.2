@@ -1,9 +1,5 @@
 # Chatbot Game v2
 
-![Project Video](media/720P.gif)
-
---
-
 ![Project Video](media/480P.gif)
 
 
