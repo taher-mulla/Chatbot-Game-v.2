@@ -2,6 +2,11 @@
 
 ![Project Video](media/720P.gif)
 
+--
+
+![Project Video](media/480P.gif)
+
+
 >Client-Server java chatbot to demonstrate a client-server application used to play a game. The client-side has a GUI and communicates with the server to play this game.
 
 ---
