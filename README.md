@@ -19,7 +19,7 @@
 
 ## Description
 
-This application is development on the [Chatbot v.1](https://github.com/taher-mulla/Chatbot-Game-v.1.git). I have iproved this to be a client-server application, here the client machine is operated by the user who plays the game. This cleint will communicate with the server and will be given the questions, answers and score. I am using a database that has the movie name and character name in a .txt file. The questions and answers are taken from here. This project should be looked as a demonstration or example of how to write a client-server application, exchange data between them, etc. To look at or understanding individual parts of this project such as client-server application, threads, using a database, javafx, etc work, pls refer to my repository [here](https://github.com/taher-mulla/Java.git). You can see codes from all different java topics here. 
+This application is development on the [Chatbot v.1](https://github.com/taher-mulla/Chatbot-Game-v.1.git). I have improved this to be a client-server application, here the client machine is operated by the user who plays the game. This client will communicate with the server and will be given the questions, answers and score. I am using a database that has the movie name and character name in a .txt file. The questions and answers are taken from here. This project should be looked as a demonstration or example of how to write a client-server application, exchange data between them, etc. To look at or understanding individual parts of this project such as client-server application, threads, using a database, javafx, etc work, pls refer to my repository [here](https://github.com/taher-mulla/Java.git). You can see codes from all different java topics here. 
 
 [Back To The Top](#chatbot-game-v2)
 
@@ -73,7 +73,7 @@ This application is development on the [Chatbot v.1](https://github.com/taher-mu
 
 - Client Side
  
-  The client has a GUI for better user interaction. The fx-contorller initialize() methord displays the initial message and connects with the server. After this the server will determine whose turn it is and will accordingly send a question to the client or will ask the client to sent a question to the server. The send button in the GUI will send the typed string to the server, and the server will give the appropriate reply. 
+  The client has a GUI for better user interaction. The fx-contorller initialize() method displays the initial message and connects with the server. After this the server will determine whose turn it is and will accordingly send a question to the client or will ask the client to sent a question to the server. The send button in the GUI will send the typed string to the server, and the server will give the appropriate reply. 
   
   Every string sent from the server to the client has 4 parts. Using this string the server tells the client: who has sent the message, the message content, the server's score and the bot's score. This string is one example of how the client and server can exchange data and communicate. 
   
@@ -81,7 +81,7 @@ This application is development on the [Chatbot v.1](https://github.com/taher-mu
 
 - Server Side
 
-  The server does not need a GUI and hence has none. The server is alwasy ON and waits for clients to connect and will be waiting and listning for connections even after all clients disconnect. Here the server keeps track of the turn and the score. The server also has the database, and is responsible for asking the questions to the client and checking the answers recieved from the client. The server has 2 methods to finction, one that will find the movie from a given character name, and second will check if the given character and movie.Pls refer to the server src code [here](Server/src/).
+  The server does not need a GUI and hence has none. The server is always ON and waits for clients to connect and will be waiting and listening for connections even after all clients disconnect. Here the server keeps track of the turn and the score. The server also has the database, and is responsible for asking the questions to the client and checking the answers received from the client. The server has 2 methods to function, one that will find the movie from a given character name, and second will check if the given character and movie.Pls refer to the server src code [here](Server/src/).
 
 
 [Back To The Top](#chatbot-game-v2)
@@ -90,7 +90,7 @@ This application is development on the [Chatbot v.1](https://github.com/taher-mu
 
 ## Improvements
 
-The application UI can be improved by having a multiple possible answers from the server which can be randomly used. The client name should also be changable to the users name. Lastly we should also be able to send a full sentance to the server. This can be done using NPL and finding the proper nouns fro the statement sent.
+The application UI can be improved by having a multiple possible answers from the server which can be randomly used. The client name should also be changeable to the users name. Lastly we should also be able to send a full sentence to the server. This can be done using NPL and finding the proper nouns fro the statement sent.
 
 [Back To The Top](#chatbot-game-v2)
 
